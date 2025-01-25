@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
+    protected $fillable = [  //代入するカラムが増えたらどんどん記載していく
+        'title',
+        'body',
+    ];
     //
     public function user()
     {
