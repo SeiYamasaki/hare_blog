@@ -11,7 +11,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        //作成
+        return view("posts.index");
     }
 
     /**
